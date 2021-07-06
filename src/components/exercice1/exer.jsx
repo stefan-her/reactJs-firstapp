@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import style from './exer.module.css'
 
 
 const Exer = (props) => {
@@ -6,8 +7,8 @@ const Exer = (props) => {
 
     return (
         <div>
-            <h1>Bienvenue {name} sur l'application React!</h1>
-            <p>vous avez {age} ans</p>
+            <h1>Bienvenue <span className={style.name}> {name} </span> sur l'application React!</h1>
+            <p>vous avez <span className={style.age}> {age} </span> ans</p>
         </div>
     );
 }

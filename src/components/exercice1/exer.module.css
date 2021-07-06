@@ -1,0 +1,8 @@
+.name {
+    font-style: italic;
+}
+
+.age {
+    font-weight: bold;
+    color: darkred;
+}
