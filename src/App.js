@@ -10,6 +10,7 @@ function App() {
       <Welcome name="stefan" />
 
       <ElementStyle nb1={20} nb2={1} />
+      <ElementStyle />
 
     </div>
   );
