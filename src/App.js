@@ -2,11 +2,12 @@
 import './App.css';
 //import ElementStyle from './components/element-style/element-style';
 //import Welcome from './components/welcome/welcome';
+import {nanoid} from 'nanoid';
 import Exer from './components/exercice1/exer';
 import Bissextile from './components/bissextile/bissextile';
 import Collection from './components/collection/collection';
 
-const liste = [{id: 1, name: "stefan"}, {id: 2, name: "marie"}, {id: 3, name: "patrick"}];
+const liste = [{id: nanoid(), name: "stefan"}, {id: nanoid(), name: "marie"}, {id: nanoid(), name: "patrick"}];
 
 function App() {
   return (
