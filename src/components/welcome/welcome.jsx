@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 
 const Welcome = (props) => {
-    const name = props.name;
+    const {name} = props;
+    
 
     // JSX
     return(
@@ -12,6 +13,6 @@ const Welcome = (props) => {
 
 Welcome.propTypes = {
     name: PropTypes.string.isRequired
-}
+};
 
 export default Welcome;
